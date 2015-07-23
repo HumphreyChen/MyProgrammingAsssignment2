@@ -1,5 +1,5 @@
 ## R-Programming (Assignment #2): cache solver of matrix inverse
-
+##----------------------------------------------------------------
 ## A function for matrix assignment: Return a list of functions
 ## Set and get the original/inverse matrix
 makeCacheMatrix <- function(x = matrix()) {
@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
          getInverse = getInverse)
 }
 
-
+##----------------------------------------------------------------
 ## Calculate the inverse matrix and return it
 ## Directly return the value if it exists
 cacheSolve <- function(x, ...) {
